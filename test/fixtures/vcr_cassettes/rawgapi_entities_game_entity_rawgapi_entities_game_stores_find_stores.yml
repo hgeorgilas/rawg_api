@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/games/3328/stores?page=1&page_size=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:09 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '517'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d41f7b7c43a8c9d50e2725fead7a9b3531587816729; expires=Mon, 25-May-20
+        12:12:09 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, POST, HEAD, OPTIONS
+      Path:
+      - api-stores-list
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f87cdb4efd5a-ATH
+      Cf-Request-Id:
+      - 0252d9a2030000fd5a2d09c200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":4,"next":null,"previous":null,"results":[{"id":354780,"game_id":3328,"store_id":5,"url":"https://www.gog.com/game/the_witcher_3_wild_hunt"},{"id":312313,"game_id":3328,"store_id":2,"url":"https://www.microsoft.com/en-us/p/the-witcher-3-wild-hunt/br765873cqjd"},{"id":305376,"game_id":3328,"store_id":1,"url":"https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"},{"id":3565,"game_id":3328,"store_id":3,"url":"https://store.playstation.com/en-us/product/UP4497-CUSA00527_00-0000000000000002"}]}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:09 GMT
+recorded_with: VCR 3.0.3

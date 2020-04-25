@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/creators/1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2848'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d714e7f25f04b70fb811dc9c19e93cc1d1587816735; expires=Mon, 25-May-20
+        12:12:15 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, PATCH, DELETE, HEAD, OPTIONS
+      Path:
+      - api-person-detail
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8a4ecc3fd6e-ATH
+      Cf-Request-Id:
+      - 0252d9bb100000fd6ebd34c200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"Michael Unsworth","slug":"michael-unsworth","image":null,"image_background":"https://media.rawg.io/media/games/b11/b115b2bc6a5957a917bc7601f4abdda2.jpg","description":"<p>Michael
+        Unsworth is a games writer. Unsworth has been working with Rockstar Games,
+        Rockstar North and Rockstar San Diego. Unsworth&#39;s first published game
+        was Red Dead Redemption released in 2010. After that, Michael Unsworth took
+        part as the writer of Max Payne 3. Unsworth also worked on Grand Theft Auto
+        V developed by Rockstar Games for PC, Xbox One, PlayStation 4 and Xbox 360.
+        Most recently, Michael Unsworth was involved in the development of Red Dead
+        Online. </p>","games_count":4,"reviews_count":5788,"rating":"4.41","rating_top":5,"updated":"2020-01-14T15:19:10","positions":[{"id":1,"name":"writer","slug":"writer"}],"platforms":{"total":6,"results":[{"count":5,"percent":41.67,"platform":{"id":2,"name":"PlayStation","slug":"playstation"}},{"count":4,"percent":33.33,"platform":{"id":3,"name":"Xbox","slug":"xbox"}},{"count":2,"percent":16.67,"platform":{"id":1,"name":"PC","slug":"pc"}},{"count":1,"percent":8.33,"platform":{"id":5,"name":"Apple
+        Macintosh","slug":"mac"}}],"count":4},"ratings":[{"id":5,"title":"exceptional","count":3194,"percent":55.18},{"id":4,"title":"recommended","count":2051,"percent":35.44},{"id":3,"title":"meh","count":410,"percent":7.08},{"id":1,"title":"skip","count":133,"percent":2.3}],"timeline":[{"year":1962,"count":0},{"year":1963,"count":0},{"year":1964,"count":0},{"year":1965,"count":0},{"year":1966,"count":0},{"year":1967,"count":0},{"year":1968,"count":0},{"year":1969,"count":0},{"year":1970,"count":0},{"year":1971,"count":0},{"year":1972,"count":0},{"year":1973,"count":0},{"year":1974,"count":0},{"year":1975,"count":0},{"year":1976,"count":0},{"year":1977,"count":0},{"year":1978,"count":0},{"year":1979,"count":0},{"year":1980,"count":0},{"year":1981,"count":0},{"year":1982,"count":0},{"year":1983,"count":0},{"year":1984,"count":0},{"year":1985,"count":0},{"year":1986,"count":0},{"year":1987,"count":0},{"year":1988,"count":0},{"year":1989,"count":0},{"year":1990,"count":0},{"year":1991,"count":0},{"year":1992,"count":0},{"year":1993,"count":0},{"year":1994,"count":0},{"year":1995,"count":0},{"year":1996,"count":0},{"year":1997,"count":0},{"year":1998,"count":0},{"year":1999,"count":0},{"year":2000,"count":0},{"year":2001,"count":0},{"year":2002,"count":0},{"year":2003,"count":0},{"year":2004,"count":0},{"year":2005,"count":0},{"year":2006,"count":0},{"year":2007,"count":0},{"year":2008,"count":0},{"year":2009,"count":0},{"year":2010,"count":1},{"year":2011,"count":0},{"year":2012,"count":1},{"year":2013,"count":1},{"year":2014,"count":0},{"year":2015,"count":0},{"year":2016,"count":0},{"year":2017,"count":0},{"year":2018,"count":0},{"year":2019,"count":1},{"year":2020,"count":0}]}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:15 GMT
+recorded_with: VCR 3.0.3

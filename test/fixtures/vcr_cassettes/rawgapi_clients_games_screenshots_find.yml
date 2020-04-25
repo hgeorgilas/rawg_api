@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/games/3328/screenshots?page=1&page_size=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '945'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d03732b5e270b877d16b2ac29d13bf86f1587816745; expires=Mon, 25-May-20
+        12:12:25 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, POST, HEAD, OPTIONS
+      Path:
+      - api-screenshots-list
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8e4fcd65cd3-ATH
+      Cf-Request-Id:
+      - 0252d9e31900005cd3efbe4200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":6,"next":null,"previous":null,"results":[{"id":30336,"image":"https://media.rawg.io/media/screenshots/1ac/1ac19f31974314855ad7be266adeb500.jpg","width":1280,"height":720,"is_deleted":false},{"id":30337,"image":"https://media.rawg.io/media/screenshots/6a0/6a08afca95261a2fe221ea9e01d28762.jpg","width":1280,"height":720,"is_deleted":false},{"id":30338,"image":"https://media.rawg.io/media/screenshots/cdd/cdd31b6b4a687425a87b5ce231ac89d7.jpg","width":1280,"height":720,"is_deleted":false},{"id":30339,"image":"https://media.rawg.io/media/screenshots/862/862397b153221a625922d3bb66337834.jpg","width":1280,"height":720,"is_deleted":false},{"id":30340,"image":"https://media.rawg.io/media/screenshots/166/166787c442a45f52f4f230c33fd7d605.jpg","width":1280,"height":720,"is_deleted":false},{"id":30342,"image":"https://media.rawg.io/media/screenshots/f63/f6373ee614046d81503d63f167181803.jpg","width":1280,"height":720,"is_deleted":false}]}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:25 GMT
+recorded_with: VCR 3.0.3

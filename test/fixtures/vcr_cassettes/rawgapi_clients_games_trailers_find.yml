@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/games/3328/movies?page=1&page_size=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:29 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '52'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d8d1cab5648481ab4112376fb167cddad1587816749; expires=Mon, 25-May-20
+        12:12:29 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-game-movies
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8fe9b919de9-ATH
+      Cf-Request-Id:
+      - 0252d9f31c00009de968983200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":0,"next":null,"previous":null,"results":[]}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:29 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/tags/1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:16 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '176'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d216ba11fe07bd8a3d04ace4a7d4039a41587816736; expires=Mon, 25-May-20
+        12:12:16 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-tag-detail
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8aa3a299e5b-ATH
+      Cf-Request-Id:
+      - 0252d9be5e00009e5b1c0ff200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"Survival","slug":"survival","games_count":3495,"image_background":"https://media.rawg.io/media/games/08b/08ba47648c1611cfbf0d36eea5a2efa4.jpg","description":""}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:16 GMT
+recorded_with: VCR 3.0.3

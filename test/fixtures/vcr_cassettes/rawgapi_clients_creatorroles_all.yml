@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/creator-roles?page=1&page_size=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:02 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '362'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d6c4c33752031ce61b0a621aaf6f514441587816722; expires=Mon, 25-May-20
+        12:12:02 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-position-list
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8549d795c9d-ATH
+      Cf-Request-Id:
+      - 0252d988dd00005c9d6b940200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":7,"next":null,"previous":null,"results":[{"id":1,"name":"writer","slug":"writer"},{"id":2,"name":"director","slug":"director"},{"id":3,"name":"composer","slug":"composer"},{"id":4,"name":"artist","slug":"artist"},{"id":5,"name":"producer","slug":"producer"},{"id":6,"name":"designer","slug":"designer"},{"id":7,"name":"programmer","slug":"programmer"}]}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:02 GMT
+recorded_with: VCR 3.0.3

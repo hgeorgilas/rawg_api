@@ -1,0 +1,243 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/tags?page=1&page_size=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:00 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '26364'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d1dea5a0847b1bc467de6be55b5012d3e1587816720; expires=Mon, 25-May-20
+        12:12:00 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-tag-list
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8464865fd62-ATH
+      Cf-Request-Id:
+      - 0252d97fed0000fd622f89e200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":5671,"next":"https://api.rawg.io/api/tags?page=2&page_size=50","previous":null,"results":[{"id":31,"name":"Singleplayer","slug":"singleplayer","games_count":70659,"image_background":"https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695}]},{"id":40847,"name":"Steam Achievements","slug":"steam-achievements","games_count":18348,"image_background":"https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695}]},{"id":7808,"name":"steam-trading-cards","slug":"steam-trading-cards","games_count":7634,"image_background":"https://media.rawg.io/media/games/83f/83f6f70a7c1b86cd2637b029d8b42caa.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4062,"slug":"bioshock-infinite","name":"BioShock Infinite","added":8581}]},{"id":7,"name":"Multiplayer","slug":"multiplayer","games_count":19791,"image_background":"https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":5286,"slug":"tomb-raider","name":"Tomb Raider (2013)","added":8485},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351}]},{"id":40849,"name":"Steam Cloud","slug":"steam-cloud","games_count":8635,"image_background":"https://media.rawg.io/media/games/d69/d69810315bd7e226ea2d21f9156af629.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4062,"slug":"bioshock-infinite","name":"BioShock Infinite","added":8581}]},{"id":13,"name":"Atmospheric","slug":"atmospheric","games_count":7801,"image_background":"https://media.rawg.io/media/games/c88/c885ae6a24bbce21df93b6c4e1c78899.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4062,"slug":"bioshock-infinite","name":"BioShock Infinite","added":8581}]},{"id":40836,"name":"Full
+        controller support","slug":"full-controller-support","games_count":8591,"image_background":"https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4062,"slug":"bioshock-infinite","name":"BioShock Infinite","added":8581}]},{"id":42,"name":"Great
+        Soundtrack","slug":"great-soundtrack","games_count":2950,"image_background":"https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":4062,"slug":"bioshock-infinite","name":"BioShock
+        Infinite","added":8581},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":3439,"slug":"life-is-strange-episode-1-2","name":"Life
+        is Strange","added":8477}]},{"id":24,"name":"RPG","slug":"rpg","games_count":9474,"image_background":"https://media.rawg.io/media/games/0ea/0ea05d4703f3af63a570471fbad79d40.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4062,"slug":"bioshock-infinite","name":"BioShock Infinite","added":8581},{"id":5286,"slug":"tomb-raider","name":"Tomb
+        Raider (2013)","added":8485}]},{"id":18,"name":"Co-op","slug":"co-op","games_count":5125,"image_background":"https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416}]},{"id":118,"name":"Story Rich","slug":"story-rich","games_count":6132,"image_background":"https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":4062,"slug":"bioshock-infinite","name":"BioShock
+        Infinite","added":8581},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":3439,"slug":"life-is-strange-episode-1-2","name":"Life
+        is Strange","added":8477}]},{"id":36,"name":"Open World","slug":"open-world","games_count":2566,"image_background":"https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":3070,"slug":"fallout-4","name":"Fallout 4","added":7011},{"id":4459,"slug":"grand-theft-auto-iv","name":"Grand
+        Theft Auto IV","added":6934}]},{"id":411,"name":"cooperative","slug":"cooperative","games_count":2220,"image_background":"https://media.rawg.io/media/games/2c4/2c4ec7b64079b561667850593d23c417.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416}]},{"id":8,"name":"First-Person","slug":"first-person","games_count":6987,"image_background":"https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":4062,"slug":"bioshock-infinite","name":"BioShock
+        Infinite","added":8581},{"id":13536,"slug":"portal","name":"Portal","added":8564}]},{"id":32,"name":"Sci-fi","slug":"sci-fi","games_count":6447,"image_background":"https://media.rawg.io/media/games/238/2383a172b4d50a7b44e07980eb7141ea.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":802,"slug":"borderlands-2","name":"Borderlands 2","added":8695},{"id":4062,"slug":"bioshock-infinite","name":"BioShock
+        Infinite","added":8581},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":13537,"slug":"half-life-2","name":"Half-Life
+        2","added":7807},{"id":4286,"slug":"bioshock","name":"BioShock","added":7785}]},{"id":45,"name":"2D","slug":"2d","games_count":60119,"image_background":"https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg","language":"eng","games":[{"id":1030,"slug":"limbo","name":"Limbo","added":7935},{"id":422,"slug":"terraria","name":"Terraria","added":5995},{"id":3612,"slug":"hotline-miami","name":"Hotline
+        Miami","added":5800},{"id":3144,"slug":"super-meat-boy","name":"Super Meat
+        Boy","added":5734},{"id":613,"slug":"bastion","name":"Bastion","added":5235},{"id":1010,"slug":"transistor","name":"Transistor","added":4754}]},{"id":40845,"name":"Partial
+        Controller Support","slug":"partial-controller-support","games_count":6220,"image_background":"https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg","language":"eng","games":[{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":13537,"slug":"half-life-2","name":"Half-Life
+        2","added":7807},{"id":4286,"slug":"bioshock","name":"BioShock","added":7785},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":2454,"slug":"doom","name":"DOOM (2016)","added":6962}]},{"id":149,"name":"Third
+        Person","slug":"third-person","games_count":2199,"image_background":"https://media.rawg.io/media/games/2c4/2c4ec7b64079b561667850593d23c417.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":3439,"slug":"life-is-strange-episode-1-2","name":"Life
+        is Strange","added":8477},{"id":5286,"slug":"tomb-raider","name":"Tomb Raider
+        (2013)","added":8485},{"id":3070,"slug":"fallout-4","name":"Fallout 4","added":7011}]},{"id":30,"name":"FPS","slug":"fps","games_count":4730,"image_background":"https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":12020,"slug":"left-4-dead-2","name":"Left 4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4062,"slug":"bioshock-infinite","name":"BioShock Infinite","added":8581},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351}]},{"id":16,"name":"Horror","slug":"horror","games_count":12480,"image_background":"https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg","language":"eng","games":[{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":1030,"slug":"limbo","name":"Limbo","added":7935},{"id":13537,"slug":"half-life-2","name":"Half-Life
+        2","added":7807},{"id":4286,"slug":"bioshock","name":"BioShock","added":7785},{"id":2454,"slug":"doom","name":"DOOM
+        (2016)","added":6962},{"id":23027,"slug":"the-walking-dead","name":"The Walking
+        Dead: Season 1","added":6621}]},{"id":40850,"name":"Steam Leaderboards","slug":"steam-leaderboards","games_count":4126,"image_background":"https://media.rawg.io/media/games/a44/a444a7628bdb49b24d06a7672f805814.jpg","language":"eng","games":[{"id":3192,"slug":"metal-gear-solid-v-the-phantom-pain","name":"METAL
+        GEAR SOLID V: THE PHANTOM PAIN","added":6425},{"id":16944,"slug":"the-witcher-2-assassins-of-kings-enhanced-edition","name":"The
+        Witcher 2: Assassins of Kings Enhanced Edition","added":6172},{"id":4332,"slug":"spec-ops-the-line","name":"Spec
+        Ops: The Line","added":6002},{"id":7689,"slug":"rise-of-the-tomb-raider","name":"Rise
+        of the Tomb Raider","added":5855},{"id":3287,"slug":"batman-arkham-knight","name":"Batman:
+        Arkham Knight","added":5818},{"id":3144,"slug":"super-meat-boy","name":"Super
+        Meat Boy","added":5734}]},{"id":4,"name":"Funny","slug":"funny","games_count":8164,"image_background":"https://media.rawg.io/media/screenshots/8f0/8f0b94922ad5e59968852649697b2643.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":3939,"slug":"payday-2","name":"PAYDAY 2","added":7077}]},{"id":64,"name":"Fantasy","slug":"fantasy","games_count":8219,"image_background":"https://media.rawg.io/media/games/aa3/aa36ba4b486a03ddfaef274fb4f5afd4.jpg","language":"eng","games":[{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":4062,"slug":"bioshock-infinite","name":"BioShock
+        Infinite","added":8581},{"id":10213,"slug":"dota-2","name":"Dota 2","added":6875},{"id":16944,"slug":"the-witcher-2-assassins-of-kings-enhanced-edition","name":"The
+        Witcher 2: Assassins of Kings Enhanced Edition","added":6172},{"id":11973,"slug":"shadow-of-mordor","name":"Middle-earth:
+        Shadow of Mordor","added":6074}]},{"id":49,"name":"Difficult","slug":"difficult","games_count":6120,"image_background":"https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg","language":"eng","games":[{"id":1030,"slug":"limbo","name":"Limbo","added":7935},{"id":2454,"slug":"doom","name":"DOOM
+        (2016)","added":6962},{"id":10213,"slug":"dota-2","name":"Dota 2","added":6875},{"id":16944,"slug":"the-witcher-2-assassins-of-kings-enhanced-edition","name":"The
+        Witcher 2: Assassins of Kings Enhanced Edition","added":6172},{"id":3612,"slug":"hotline-miami","name":"Hotline
+        Miami","added":5800},{"id":3144,"slug":"super-meat-boy","name":"Super Meat
+        Boy","added":5734}]},{"id":193,"name":"Classic","slug":"classic","games_count":1410,"image_background":"https://media.rawg.io/media/games/c89/c89ca70716080733d03724277df2c6c7.jpg","language":"eng","games":[{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":5286,"slug":"tomb-raider","name":"Tomb
+        Raider (2013)","added":8485},{"id":13537,"slug":"half-life-2","name":"Half-Life
+        2","added":7807},{"id":4286,"slug":"bioshock","name":"BioShock","added":7785},{"id":2454,"slug":"doom","name":"DOOM
+        (2016)","added":6962},{"id":4459,"slug":"grand-theft-auto-iv","name":"Grand
+        Theft Auto IV","added":6934}]},{"id":9,"name":"Online Co-Op","slug":"online-co-op","games_count":2045,"image_background":"https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":12020,"slug":"left-4-dead-2","name":"Left 4 Dead 2","added":8787},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":3939,"slug":"payday-2","name":"PAYDAY 2","added":7077}]},{"id":37,"name":"Sandbox","slug":"sandbox","games_count":2494,"image_background":"https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":3328,"slug":"the-witcher-3-wild-hunt","name":"The
+        Witcher 3: Wild Hunt","added":9723},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":3070,"slug":"fallout-4","name":"Fallout
+        4","added":7011},{"id":4459,"slug":"grand-theft-auto-iv","name":"Grand Theft
+        Auto IV","added":6934},{"id":28,"slug":"red-dead-redemption-2","name":"Red
+        Dead Redemption 2","added":6932}]},{"id":26,"name":"Gore","slug":"gore","games_count":3090,"image_background":"https://media.rawg.io/media/games/03d/03d17d237f9541b67a13f9425ced4ca4.jpg","language":"eng","games":[{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":4062,"slug":"bioshock-infinite","name":"BioShock
+        Infinite","added":8581},{"id":2454,"slug":"doom","name":"DOOM (2016)","added":6962},{"id":4459,"slug":"grand-theft-auto-iv","name":"Grand
+        Theft Auto IV","added":6934},{"id":28,"slug":"red-dead-redemption-2","name":"Red
+        Dead Redemption 2","added":6932},{"id":23027,"slug":"the-walking-dead","name":"The
+        Walking Dead: Season 1","added":6621}]},{"id":123,"name":"Comedy","slug":"comedy","games_count":4151,"image_background":"https://media.rawg.io/media/games/b11/b115b2bc6a5957a917bc7601f4abdda2.jpg","language":"eng","games":[{"id":3498,"slug":"grand-theft-auto-v","name":"Grand
+        Theft Auto V","added":11409},{"id":4200,"slug":"portal-2","name":"Portal 2","added":10075},{"id":802,"slug":"borderlands-2","name":"Borderlands
+        2","added":8695},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":3144,"slug":"super-meat-boy","name":"Super
+        Meat Boy","added":5734}]},{"id":1,"name":"Survival","slug":"survival","games_count":3495,"image_background":"https://media.rawg.io/media/games/08b/08ba47648c1611cfbf0d36eea5a2efa4.jpg","language":"eng","games":[{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":3070,"slug":"fallout-4","name":"Fallout 4","added":7011},{"id":23027,"slug":"the-walking-dead","name":"The
+        Walking Dead: Season 1","added":6621},{"id":29028,"slug":"metro-2033","name":"Metro
+        2033","added":6366},{"id":422,"slug":"terraria","name":"Terraria","added":5995},{"id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia:
+        The Dark Descent","added":5874}]},{"id":189,"name":"Female Protagonist","slug":"female-protagonist","games_count":4100,"image_background":"https://media.rawg.io/media/games/328/3283617cb7d75d67257fc58339188742.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":13536,"slug":"portal","name":"Portal","added":8564},{"id":3439,"slug":"life-is-strange-episode-1-2","name":"Life
+        is Strange","added":8477},{"id":5286,"slug":"tomb-raider","name":"Tomb Raider
+        (2013)","added":8485},{"id":278,"slug":"horizon-zero-dawn","name":"Horizon
+        Zero Dawn","added":6178},{"id":7689,"slug":"rise-of-the-tomb-raider","name":"Rise
+        of the Tomb Raider","added":5855}]},{"id":6,"name":"Exploration","slug":"exploration","games_count":6237,"image_background":"https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg","language":"eng","games":[{"id":5286,"slug":"tomb-raider","name":"Tomb
+        Raider (2013)","added":8485},{"id":3070,"slug":"fallout-4","name":"Fallout
+        4","added":7011},{"id":28,"slug":"red-dead-redemption-2","name":"Red Dead
+        Redemption 2","added":6932},{"id":32,"slug":"destiny-2","name":"Destiny 2","added":6365},{"id":278,"slug":"horizon-zero-dawn","name":"Horizon
+        Zero Dawn","added":6178},{"id":422,"slug":"terraria","name":"Terraria","added":5995}]},{"id":79,"name":"Free
+        to Play","slug":"free-to-play","games_count":2954,"image_background":"https://media.rawg.io/media/games/a91/a911f0a91991469e398fa70091507a5b.jpg","language":"eng","games":[{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":10213,"slug":"dota-2","name":"Dota 2","added":6875},{"id":19103,"slug":"half-life-2-lost-coast","name":"Half-Life
+        2: Lost Coast","added":6476},{"id":766,"slug":"warframe","name":"Warframe","added":6398},{"id":32,"slug":"destiny-2","name":"Destiny
+        2","added":6365},{"id":11936,"slug":"half-life-2-deathmatch","name":"Half-Life
+        2: Deathmatch","added":5865}]},{"id":15,"name":"Stealth","slug":"stealth","games_count":2507,"image_background":"https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg","language":"eng","games":[{"id":5286,"slug":"tomb-raider","name":"Tomb
+        Raider (2013)","added":8485},{"id":3939,"slug":"payday-2","name":"PAYDAY 2","added":7077},{"id":3192,"slug":"metal-gear-solid-v-the-phantom-pain","name":"METAL
+        GEAR SOLID V: THE PHANTOM PAIN","added":6425},{"id":29028,"slug":"metro-2033","name":"Metro
+        2033","added":6366},{"id":278,"slug":"horizon-zero-dawn","name":"Horizon Zero
+        Dawn","added":6178},{"id":11973,"slug":"shadow-of-mordor","name":"Middle-earth:
+        Shadow of Mordor","added":6074}]},{"id":198,"name":"Split Screen","slug":"split-screen","games_count":3329,"image_background":"https://media.rawg.io/media/games/9cc/9cc11e2e81403186c7fa9c00c143d6e4.jpg","language":"eng","games":[{"id":3272,"slug":"rocket-league","name":"Rocket
+        League","added":6547},{"id":4003,"slug":"grid-2","name":"GRID 2","added":4596},{"id":3853,"slug":"trine-2-complete-story","name":"Trine
+        2: Complete Story","added":4502},{"id":11435,"slug":"viscera-cleanup-detail-shadow-warrior","name":"Viscera
+        Cleanup Detail: Shadow Warrior","added":4403},{"id":18272,"slug":"magicka","name":"Magicka","added":4096},{"id":3771,"slug":"rayman-legends","name":"Rayman
+        Legends","added":3870}]},{"id":75,"name":"Local Co-Op","slug":"local-co-op","games_count":3139,"image_background":"https://media.rawg.io/media/games/974/974342a3959981a17bdbbff2fd7f97b0.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":12020,"slug":"left-4-dead-2","name":"Left 4 Dead 2","added":8787},{"id":3272,"slug":"rocket-league","name":"Rocket
+        League","added":6547},{"id":4828,"slug":"borderlands","name":"Borderlands","added":5611},{"id":18240,"slug":"brothers-a-tale-of-two-sons-2","name":"Brothers
+        - A Tale of Two Sons","added":4722},{"id":4003,"slug":"grid-2","name":"GRID
+        2","added":4596}]},{"id":11669,"name":"stats","slug":"stats","games_count":3212,"image_background":"https://media.rawg.io/media/games/1bd/1bd2657b81eb0c99338120ad444b24ff.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":12020,"slug":"left-4-dead-2","name":"Left 4 Dead 2","added":8787},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":3272,"slug":"rocket-league","name":"Rocket
+        League","added":6547},{"id":19710,"slug":"half-life-2-episode-one","name":"Half-Life
+        2: Episode One","added":6034}]},{"id":80,"name":"Tactical","slug":"tactical","games_count":1487,"image_background":"https://media.rawg.io/media/games/14a/14a83c56ff668baaced6e8c8704b6391.jpg","language":"eng","games":[{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":3939,"slug":"payday-2","name":"PAYDAY 2","added":7077},{"id":3192,"slug":"metal-gear-solid-v-the-phantom-pain","name":"METAL
+        GEAR SOLID V: THE PHANTOM PAIN","added":6425},{"id":10035,"slug":"hitman","name":"HITMAN","added":5889}]},{"id":115,"name":"Controller","slug":"controller","games_count":4241,"image_background":"https://media.rawg.io/media/games/b17/b17485d757ca36b5f1ad376b6b096885.jpg","language":"eng","games":[{"id":4062,"slug":"bioshock-infinite","name":"BioShock
+        Infinite","added":8581},{"id":1030,"slug":"limbo","name":"Limbo","added":7935},{"id":3144,"slug":"super-meat-boy","name":"Super
+        Meat Boy","added":5734},{"id":613,"slug":"bastion","name":"Bastion","added":5235},{"id":5583,"slug":"hitman-absolution","name":"Hitman:
+        Absolution","added":4956},{"id":18240,"slug":"brothers-a-tale-of-two-sons-2","name":"Brothers
+        - A Tale of Two Sons","added":4722}]},{"id":40852,"name":"Steam Workshop","slug":"steam-workshop","games_count":1010,"image_background":"https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg","language":"eng","games":[{"id":4200,"slug":"portal-2","name":"Portal
+        2","added":10075},{"id":5679,"slug":"the-elder-scrolls-v-skyrim","name":"The
+        Elder Scrolls V: Skyrim","added":9023},{"id":12020,"slug":"left-4-dead-2","name":"Left
+        4 Dead 2","added":8787},{"id":4291,"slug":"counter-strike-global-offensive","name":"Counter-Strike:
+        Global Offensive","added":8351},{"id":11859,"slug":"team-fortress-2","name":"Team
+        Fortress 2","added":7416},{"id":10213,"slug":"dota-2","name":"Dota 2","added":6875}]}]}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:00 GMT
+recorded_with: VCR 3.0.3

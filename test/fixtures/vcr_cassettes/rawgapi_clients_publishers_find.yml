@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/publishers/1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '218'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d39bf85e6bf9e4f4dd1fd6644cfdea0c61587816729; expires=Mon, 25-May-20
+        12:12:09 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-publisher-detail
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8825e4a9e79-ATH
+      Cf-Request-Id:
+      - 0252d9a57a00009e7927874200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"West Coast Software Limited","slug":"west-coast-software-limited","games_count":2,"image_background":"https://media.rawg.io/media/screenshots/592/59280b54d91d4d555a864767a7ac8a4a.jpeg","description":""}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:10 GMT
+recorded_with: VCR 3.0.3

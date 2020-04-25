@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/stores/1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:12 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1076'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d509c3bd084c3809f68ad9dec135ca50b1587816732; expires=Mon, 25-May-20
+        12:12:12 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-store-detail
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f88ef8169e4f-ATH
+      Cf-Request-Id:
+      - 0252d9ad5a00009e4f10183200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"Steam","domain":"store.steampowered.com","slug":"steam","games_count":41605,"image_background":"https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg","description":"<p>Steam
+        is an online video game store launched in 2003 by Valve. Games on Steam can
+        be played on PCs, including Windows, Mac, and Linux systems. There are dozens
+        of thousands of titles there with over 100 million active users all over the
+        world. Games on Steam are ranged by genres and popularity; more games are
+        recommended to players depending on their previous purchases. Some games on
+        Steam require special hardware, such as VR-headsets or controllers. Time-limited
+        offers, personal recommendations, and holiday bundles are featured on the
+        main Steam page. Players can add games to their Steam wishlists to track them
+        down and get a notification when they are out.<br />\nSteam also acts as a
+        social network for PC players that can discuss and rate games and get achievements.
+        In 2018 Valve released Steam TV - a service to stream international game tournaments.</p>"}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:12 GMT
+recorded_with: VCR 3.0.3

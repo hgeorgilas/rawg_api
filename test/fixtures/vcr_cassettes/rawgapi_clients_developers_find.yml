@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/developers/1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:14 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '210'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d762914ad765228f497887517535a077d1587816734; expires=Mon, 25-May-20
+        12:12:14 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-developer-detail
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f89f8e9a5ceb-ATH
+      Cf-Request-Id:
+      - 0252d9b7b400005ceb039a5200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1,"name":"D3 Publisher of America","slug":"d3-publisher-of-america","games_count":12,"image_background":"https://media.rawg.io/media/screenshots/c1c/c1c5b7d617614a672e89b24ea32ee35e.jpg","description":""}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:14 GMT
+recorded_with: VCR 3.0.3

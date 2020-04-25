@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/platforms/1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:12 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1125'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d452b6d4bc84d1f63d5abd3c77ade85df1587816732; expires=Mon, 25-May-20
+        12:12:12 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-platform-detail
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8938bbf5cb5-ATH
+      Cf-Request-Id:
+      - 0252d9b03200005cb5039c5200000001
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6MSwibmFtZSI6Ilhib3ggT25lIiwic2x1ZyI6Inhib3gtb25lIiwiZ2FtZXNfY291bnQiOjMyMzMsImltYWdlX2JhY2tncm91bmQiOiJodHRwczovL21lZGlhLnJhd2cuaW8vbWVkaWEvZ2FtZXMvMTVjLzE1Yzk1YTQ5MTVmODhhM2U4OWM4MjE1MjZhZmUwNWZjLmpwZyIsImRlc2NyaXB0aW9uIjoiPHA+WGJveCBPbmUgaXMgYSBob21lIHZpZGVvIGdhbWUgY29uc29sZSByZWxlYXNlZCBieSBNaWNyb3NvZnQgaW4gMjAxMy4gVW5saWtlIGl0cyBtYWluIGNvbXBldGl0b3Ig4oCUIFBsYXlTdGF0aW9uIDQsIHRoZSBhY2NlbnQgaW4gdGhlIGRldmVsb3BtZW50IHdhcyBtYWRlIGluIG11bHRpdGFza2luZyBhbmQgdXNpbmcgYSBjb25zb2xlIGFzIGEgaG9tZSBtZWRpYSBwbGF5ZXIgdG8gd2F0Y2ggVFYsIGxpc3RlbiB0byBtdXNpYyBhbmQgcGxheSB0aGUgZ2FtZXMuIFRoZXJlIGlzIHRocmVlIGhhcmR3YXJlIG9wdGlvbiBhdmFpbGFibGUgdG8gZ2FtZXJzOiBvcmlnaW5hbCBjb25zb2xlLCBPbmUgUyB2ZXJzaW9uICh3aXRoIGEgc21hbGxlciBib2R5LCBubyBleHRlcm5hbCBwb3dlciBzdXBwbHksIGFuZCBuYXRpdmUgSERSLzRrIHN1cHBvcnQpIGFuZCBPbmUgWCAocHJvLWdhbWVyLW9yaWVudGVkIHN5c3RlbSB3aXRoIHVwZGF0ZWQgaGFyZHdhcmUgYW5kIDRrIHJlbmRlcmluZyBpbiByZWFsIHRpbWUpLiBXaGlsZSBQUzQgaXMga25vd24gZm9yIGV4Y2x1c2l2ZS1vcmllbnRhdGlvbiwgWGJveCBPbmUmIzM5O3MgZ2FtZXMgYXJlIG1vc3RseSBtdWx0aS1wbGF0Zm9ybSB0aXRsZXMuIFRoaXMgc3VwcG9ydHMgTWljcm9zb2Z0JiMzOTtzIGluaXRpYWwgaWRlYSB0byBwcmV2ZW50IHNlbGxpbmcgdXNlZCBnYW1lcyBiZXR3ZWVuIHRoZSBwbGF5ZXJzLiBIb3dldmVyLCBnaXZlbiB0aGUgY29tcGV0aXRpb24gZnJvbSB0aGUgU29ueSBzaWRlLCB0aGUgY29ycG9yYXRpb24gcXVpY2tseSBnYXZlIHVwLiBBbW9uZyB0aGUgbm90YWJsZSBleGNsdXNpdmUgZ2FtZXMsIHRoZXJlIGFyZSBTdW5zZXQgT3ZlcmRyaXZlLCBIYWxvIDU6IEd1YXJkaWFucyBhbmQgRm9yemEgTW90b3JzcG9ydCA1LjwvcD4iLCJpbWFnZSI6bnVsbCwieWVhcl9zdGFydCI6bnVsbCwieWVhcl9lbmQiOm51bGx9
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:12 GMT
+recorded_with: VCR 3.0.3

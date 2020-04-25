@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rawg.io/api/platforms/lists/parents?page=1&page_size=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Rawg.io Ruby Client (rawg_api)
+      Connection:
+      - close
+      Host:
+      - api.rawg.io
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Apr 2020 12:12:29 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '11209'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=dac5a4ff02c98dd5b8f979201e6199a7c1587816749; expires=Mon, 25-May-20
+        12:12:29 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      Allow:
+      - GET, HEAD, OPTIONS
+      Path:
+      - api-platformparent-list
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Origin
+      Content-Language:
+      - en
+      X-Cache-Status:
+      - MISS
+      X-Server:
+      - api_rawg_io
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Strict-Transport-Security:
+      - max-age=0; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5897f8fd0fb89dd7-ATH
+      Cf-Request-Id:
+      - 0252d9f22200009dd7fdbf7200000001
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":14,"next":null,"previous":null,"results":[{"id":1,"name":"PC","slug":"pc","platforms":[{"id":4,"name":"PC","slug":"pc","games_count":218590,"image_background":"https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg","image":null,"year_start":null,"year_end":null}]},{"id":2,"name":"PlayStation","slug":"playstation","platforms":[{"id":18,"name":"PlayStation
+        4","slug":"playstation4","games_count":4654,"image_background":"https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg","image":null,"year_start":null,"year_end":null},{"id":16,"name":"PlayStation
+        3","slug":"playstation3","games_count":3571,"image_background":"https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg","image":null,"year_start":null,"year_end":null},{"id":15,"name":"PlayStation
+        2","slug":"playstation2","games_count":1760,"image_background":"https://media.rawg.io/media/games/662/6625a20ca1d13699ee7c191b20a02408.jpg","image":null,"year_start":null,"year_end":null},{"id":27,"name":"PlayStation","slug":"playstation1","games_count":1473,"image_background":"https://media.rawg.io/media/games/623/623eff489e5fcfd3d684e902d3efad8b.jpg","image":null,"year_start":null,"year_end":null},{"id":19,"name":"PS
+        Vita","slug":"ps-vita","games_count":1904,"image_background":"https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg","image":null,"year_start":null,"year_end":null},{"id":17,"name":"PSP","slug":"psp","games_count":1544,"image_background":"https://media.rawg.io/media/screenshots/883/88346920beac50a7cb33b12014788d7f.jpg","image":null,"year_start":null,"year_end":null}]},{"id":3,"name":"Xbox","slug":"xbox","platforms":[{"id":1,"name":"Xbox
+        One","slug":"xbox-one","games_count":3233,"image_background":"https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg","image":null,"year_start":null,"year_end":null},{"id":14,"name":"Xbox
+        360","slug":"xbox360","games_count":2499,"image_background":"https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg","image":null,"year_start":null,"year_end":null},{"id":80,"name":"Xbox","slug":"xbox-old","games_count":646,"image_background":"https://media.rawg.io/media/screenshots/3b6/3b66beb46a6a0b8d70085f6337b342b2.jpg","image":null,"year_start":null,"year_end":null}]},{"id":4,"name":"iOS","slug":"ios","platforms":[{"id":3,"name":"iOS","slug":"ios","games_count":65729,"image_background":"https://media.rawg.io/media/games/238/2383a172b4d50a7b44e07980eb7141ea.jpg","image":null,"year_start":null,"year_end":null}]},{"id":8,"name":"Android","slug":"android","platforms":[{"id":21,"name":"Android","slug":"android","games_count":28790,"image_background":"https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg","image":null,"year_start":null,"year_end":null}]},{"id":5,"name":"Apple
+        Macintosh","slug":"mac","platforms":[{"id":5,"name":"macOS","slug":"macos","games_count":50677,"image_background":"https://media.rawg.io/media/games/81b/81b138691f027ed1f8720758daa0d895.jpg","image":null,"year_start":null,"year_end":null},{"id":55,"name":"Classic
+        Macintosh","slug":"macintosh","games_count":629,"image_background":"https://media.rawg.io/media/games/38a/38af969459ad6e5de116ec8a4a84218c.jpg","image":null,"year_start":null,"year_end":null},{"id":41,"name":"Apple
+        II","slug":"apple-ii","games_count":400,"image_background":"https://media.rawg.io/media/screenshots/abe/abee291e3a67f4cfb5c55ed478435dfa.jpg","image":null,"year_start":null,"year_end":null}]},{"id":6,"name":"Linux","slug":"linux","platforms":[{"id":6,"name":"Linux","slug":"linux","games_count":34147,"image_background":"https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg","image":null,"year_start":null,"year_end":null}]},{"id":7,"name":"Nintendo","slug":"nintendo","platforms":[{"id":7,"name":"Nintendo
+        Switch","slug":"nintendo-switch","games_count":3172,"image_background":"https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg","image":null,"year_start":null,"year_end":null},{"id":8,"name":"Nintendo
+        3DS","slug":"nintendo-3ds","games_count":1707,"image_background":"https://media.rawg.io/media/games/e4f/e4fb3fd188f61fabec48dca22e6ef28a.jpg","image":null,"year_start":null,"year_end":null},{"id":9,"name":"Nintendo
+        DS","slug":"nintendo-ds","games_count":2255,"image_background":"https://media.rawg.io/media/screenshots/057/057c5fb8ab1b07f86c0df6be615e0550.jpg","image":null,"year_start":null,"year_end":null},{"id":13,"name":"Nintendo
+        DSi","slug":"nintendo-dsi","games_count":26,"image_background":"https://media.rawg.io/media/screenshots/d08/d08c7c3e61d370afe9c8c741c36c51aa.jpg","image":null,"year_start":null,"year_end":null},{"id":10,"name":"Wii
+        U","slug":"wii-u","games_count":1268,"image_background":"https://media.rawg.io/media/games/85c/85c8ae70e7cdf0105f06ef6bdce63b8b.jpg","image":null,"year_start":null,"year_end":null},{"id":11,"name":"Wii","slug":"wii","games_count":2312,"image_background":"https://media.rawg.io/media/games/fee/fee0100afd87b52bfbd33e26689fa26c.jpg","image":null,"year_start":null,"year_end":null},{"id":105,"name":"GameCube","slug":"gamecube","games_count":621,"image_background":"https://media.rawg.io/media/games/99b/99b39612e864d6ddfdb2c407fd9010a1.jpg","image":null,"year_start":null,"year_end":null},{"id":83,"name":"Nintendo
+        64","slug":"nintendo-64","games_count":349,"image_background":"https://media.rawg.io/media/screenshots/e4c/e4c9fe1fb9c4f99d87cc641465f4ec99.jpg","image":null,"year_start":null,"year_end":null},{"id":24,"name":"Game
+        Boy Advance","slug":"game-boy-advance","games_count":894,"image_background":"https://media.rawg.io/media/screenshots/ea3/ea30b393a399258ba6de06e28f82ef86.jpg","image":null,"year_start":null,"year_end":null},{"id":43,"name":"Game
+        Boy Color","slug":"game-boy-color","games_count":356,"image_background":"https://media.rawg.io/media/screenshots/6df/6df71f3ff0f6d6bbac306cb9adf935ee.jpg","image":null,"year_start":null,"year_end":null},{"id":26,"name":"Game
+        Boy","slug":"game-boy","games_count":571,"image_background":"https://media.rawg.io/media/screenshots/565/56504b28b184dbc630a7de118e39d822.jpg","image":null,"year_start":null,"year_end":null},{"id":79,"name":"SNES","slug":"snes","games_count":791,"image_background":"https://media.rawg.io/media/games/fc9/fc9bb16db9714d3731823fb0bf706533.jpg","image":null,"year_start":null,"year_end":null},{"id":49,"name":"NES","slug":"nes","games_count":879,"image_background":"https://media.rawg.io/media/games/5fe/5fe62882f1af83e36480ded84c49b984.jpg","image":null,"year_start":null,"year_end":null}]},{"id":9,"name":"Atari","slug":"atari","platforms":[{"id":28,"name":"Atari
+        7800","slug":"atari-7800","games_count":53,"image_background":"https://media.rawg.io/media/screenshots/938/93896a5e1c67f5bd7cc5b18ffbb55af0.jpg","image":null,"year_start":null,"year_end":null},{"id":31,"name":"Atari
+        5200","slug":"atari-5200","games_count":61,"image_background":"https://media.rawg.io/media/screenshots/5fa/5faaa4749ac1d65d7b5dff9a47d48dff.jpg","image":null,"year_start":null,"year_end":null},{"id":23,"name":"Atari
+        2600","slug":"atari-2600","games_count":275,"image_background":"https://media.rawg.io/media/screenshots/538/5380d6c5396ecd7c4de3ef3b311d78a9.jpg","image":null,"year_start":null,"year_end":null},{"id":22,"name":"Atari
+        Flashback","slug":"atari-flashback","games_count":29,"image_background":"https://media.rawg.io/media/screenshots/6ff/6ff0d1acf667e782d709d6fb96cddd0a.jpg","image":null,"year_start":null,"year_end":null},{"id":25,"name":"Atari
+        8-bit","slug":"atari-8-bit","games_count":297,"image_background":"https://media.rawg.io/media/games/054/0540c8fc8eed3fc13d3990f419c61c6f.jpg","image":null,"year_start":null,"year_end":null},{"id":34,"name":"Atari
+        ST","slug":"atari-st","games_count":810,"image_background":"https://media.rawg.io/media/screenshots/f96/f96e2f756b3aa3e386e0b9f58c7c10c5.jpg","image":null,"year_start":null,"year_end":null},{"id":46,"name":"Atari
+        Lynx","slug":"atari-lynx","games_count":55,"image_background":"https://media.rawg.io/media/games/0d2/0d2d6f345cd77639d65a235cb7dd0a21.jpg","image":null,"year_start":null,"year_end":null},{"id":50,"name":"Atari
+        XEGS","slug":"atari-xegs","games_count":22,"image_background":"https://media.rawg.io/media/screenshots/769/7691726d70c23c029903df08858df001.jpg","image":null,"year_start":null,"year_end":null},{"id":112,"name":"Jaguar","slug":"jaguar","games_count":27,"image_background":"https://media.rawg.io/media/screenshots/47c/47c0e7b847d36812735e75a0fd48dca9.jpg","image":null,"year_start":null,"year_end":null}]},{"id":10,"name":"Commodore
+        / Amiga","slug":"commodore-amiga","platforms":[{"id":166,"name":"Commodore
+        / Amiga","slug":"commodore-amiga","games_count":2018,"image_background":"https://media.rawg.io/media/screenshots/839/8394d2304138d455c7dfc07701806794.jpg","image":null,"year_start":null,"year_end":null}]},{"id":11,"name":"SEGA","slug":"sega","platforms":[{"id":167,"name":"Genesis","slug":"genesis","games_count":775,"image_background":"https://media.rawg.io/media/screenshots/3cb/3cb48544250434a638d0fc9683ef9d82.jpg","image":null,"year_start":null,"year_end":null},{"id":107,"name":"SEGA
+        Saturn","slug":"sega-saturn","games_count":286,"image_background":"https://media.rawg.io/media/screenshots/862/862f0a3da04a5e2d5146b35e75e0d85b.jpg","image":null,"year_start":null,"year_end":null},{"id":119,"name":"SEGA
+        CD","slug":"sega-cd","games_count":151,"image_background":"https://media.rawg.io/media/games/a9a/a9a2472f862b041d2980103ddbb61c91.jpg","image":null,"year_start":null,"year_end":null},{"id":117,"name":"SEGA
+        32X","slug":"sega-32x","games_count":45,"image_background":"https://media.rawg.io/media/screenshots/e3a/e3a8a714cb0f1a99451defd723a81ab6.jpg","image":null,"year_start":null,"year_end":null},{"id":74,"name":"SEGA
+        Master System","slug":"sega-master-system","games_count":196,"image_background":"https://media.rawg.io/media/screenshots/cbc/cbca22c381d18a8df6e9361a33f8a899.jpg","image":null,"year_start":null,"year_end":null},{"id":106,"name":"Dreamcast","slug":"dreamcast","games_count":338,"image_background":"https://media.rawg.io/media/games/96a/96a48ac7487d9db9179d83170afcb16a.jpg","image":null,"year_start":null,"year_end":null},{"id":77,"name":"Game
+        Gear","slug":"game-gear","games_count":150,"image_background":"https://media.rawg.io/media/games/e48/e4852b9be5eb6859870288d91f74aab6.jpg","image":null,"year_start":null,"year_end":null}]},{"id":12,"name":"3DO","slug":"3do","platforms":[{"id":111,"name":"3DO","slug":"3do","games_count":81,"image_background":"https://media.rawg.io/media/games/e41/e418a9f0a75697974d5e300bb20667ad.jpg","image":null,"year_start":null,"year_end":null}]},{"id":13,"name":"Neo
+        Geo","slug":"neo-geo","platforms":[{"id":12,"name":"Neo Geo","slug":"neogeo","games_count":42,"image_background":"https://media.rawg.io/media/screenshots/0f1/0f18d6412813ff8c2fab0ef432ac7538.jpg","image":null,"year_start":null,"year_end":null}]},{"id":14,"name":"Web","slug":"web","platforms":[{"id":171,"name":"Web","slug":"web","games_count":80328,"image_background":"https://media.rawg.io/media/games/f50/f508d531f14694d2bbe172df48defcfd.jpg","image":null,"year_start":null,"year_end":null}]}]}'
+    http_version: 
+  recorded_at: Sat, 25 Apr 2020 12:12:29 GMT
+recorded_with: VCR 3.0.3

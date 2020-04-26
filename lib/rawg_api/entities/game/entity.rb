@@ -11,6 +11,7 @@ module RawgApi
         delegate_method Game::Screenshots, :find_screenshots, :find
         delegate_method Game::Stores, :find_stores, :find
         delegate_method Game::Reddit, :find_reddit, :find
+        delegate_method Game::Achievements, :find_achievements, :find
         delegate_method Game::Details, :find, :find
 
         client_service Clients::Games

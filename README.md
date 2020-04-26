@@ -140,8 +140,8 @@ and accept the same parameters as their `Client` counterpart.
 ```
 # General Usage
 response = RawgApi::Entities::{ENTITY_NAME}.{METHOD} # returns Hashie Object
-# If response is a collection
 results = response.results
+
 # Returns info regarding the request, such as current page, page size etc...
 metadata = response.metadata 
 
@@ -158,8 +158,7 @@ response = RawgApi::Entities::Entity.all(page:2, page_size: 20)
 response = RawgApi::Clients::Game::Entity.search(title: 'Portal 2')
 
 # Get game by id
-# Get The Witcher 3 details
-response =  RawgApi::Entities::Game::Additions.find(3328)
+response =  RawgApi::Entities::Game::Entity.find(3328)
 
 # Access value by attribute
 response.name # => "The Witcher 3: Wild Hunt"
@@ -199,7 +198,9 @@ RawgApi::Entities::Game::Entity.find_tags(3328)
 - `RawgApi::Entities::Game::DevelopmentTeam`: `#find`
 - `RawgApi::Entities::Game::Series`: `#find`
 - `RawgApi::Entities::Game::Entity`: 
-  - `#find`,`#all`,`#find_suggested_games`,`#find_series`,`#find_screenshots`,`#find_stores`,`#find_reddit`,`#find_additions`,`#find_youtube`,`#find_twitch`
+  - `#find`,`#all`,`#search`,`#find_suggested_games`,`#find_series`,
+  - `#find_screenshots`,`#find_stores`,`#find_reddit`,`#find_additions`,
+  - `#find_youtube`,`#find_twitch`, `#find_achievements`
 - `RawgApi::Entities::Game::Details`: `#find`
 - `RawgApi::Entities::Game::Trailers`: `#find`
 - `RawgApi::Entities::Game::ParentGames`: `#find`
